@@ -7,7 +7,7 @@ public class Task {
     // Constructor to create a new task with a description
     public Task(String description) {
         this.description = description;
-        this.isDone = false;
+        this.isDone = false; //by Default
     }
 
     // Getter for the task description
